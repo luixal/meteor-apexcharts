@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.8');
   api.use('ecmascript');
-  api.use('templating');
+  api.use('templating@1.0.0');
   api.use('check');
 
   Npm.depends({
