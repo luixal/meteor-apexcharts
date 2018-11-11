@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.8');
+  api.versionsFrom('1.6');
   api.use('ecmascript');
   api.use('templating@1.0.0');
   api.use('check');
